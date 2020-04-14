@@ -2,10 +2,6 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-weight: normal;
 }
-#title {
-    background-color: #ff4c68;
-    color: #fff;
-}
 
 h1 {
     font-family: 'Montserrat', sans-serif;
@@ -26,9 +22,17 @@ h3 {
     font-weight: bold;
     font-size: 1.5rem;
 }
+
 p {
     color: #8f8f8f;
 }
+
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+
 
 .container-fluid {
     padding: 3% 15% 7%;
@@ -69,7 +73,7 @@ p {
 
 /* Fetures Section */
 #features {
-    padding: 7% 5%;
+    padding: 1% 5%;
     background-color: #fff;
     z-index: 1;
     position: relative;
@@ -126,3 +130,43 @@ p {
 .pricing-column {
     padding: 3% 2%;
 }
+
+/* CTA Section */
+#cta {
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+/* Footer Section */
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+
+
