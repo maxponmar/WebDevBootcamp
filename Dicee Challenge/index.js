@@ -8,6 +8,7 @@ function throwDice(diceNumber) {
 var dice1 = throwDice(0);
 var dice2 = throwDice(1);
 
+var 
 if (dice1 > dice2) {
     document.querySelector("h1").innerHTML = "Player 1 Wins!";
 } else if (dice1<dice2) {
