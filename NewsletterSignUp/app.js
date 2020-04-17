@@ -19,5 +19,3 @@ app.listen(3000, function() {
     console.log("Seres runnig on port 3000");
 });
 
-//1739de845d2adf152d0bf79de4cef0c8-us4
-//968b4a6f13
